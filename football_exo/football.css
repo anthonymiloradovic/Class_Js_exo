@@ -1,0 +1,80 @@
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/football2.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+
+}
+
+.football-field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .attackers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    width: 100%;
+    height: 150px;
+  }
+  
+  .midfielders {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+  }
+  
+  .defenders {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+  }
+  
+  .goalkeeper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .player {
+    width: 23%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .player-2{
+    width: 23%;
+    text-align: center;
+   
+  }
+
+.titulaire{
+  width: 85%;
+}
+
+.player-5{
+  width: 23%;
+  text-align: center;
+
+}
+
+.player-dl{
+  text-align: center;
+  padding-top: 25px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football</title>
+    <link rel="stylesheet" href="football.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Butterfly+Kids&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body >
+
+    <div class="football-field">
+        <div class="titulaire">
+            <div class="attackers">
+                <div class="player" id="attacker-1"></div>
+                <div class="player2" id="attacker-2">2</div>
+                <div class="player" id="attacker-3">3</div>
+            </div>
+            <select id="players-select">
+                <option value="">-- Sélectionnez un joueur --</option>
+                <option value="0">Joueur 1</option>
+                <option value="1">Joueur 2</option>
+                <option value="2">Joueur 3</option>
+                ...
+              </select> 
+            
+            <div class="midfielders">
+                <div class="player" id="midfielder-1">4</div>
+                <div class="player-5" id="midfielder-2">5</div>
+                <div class="player" id="midfielder-3">6</div>
+            </div>
+
+            <div class="defenders">
+                <div class="player-dl" id="defender-1">7</div>
+                <div class="player" id="defender-2">8</div>
+                <div class="player" id="defender-3">9</div>
+                <div class="player-dl" id="defender-4">10</div>
+            </div>
+
+            <div class="goalkeeper">
+                <div class="player" id="goalkeeper-1">11</div>
+            </div>
+        </div>
+    </div>
+
+      
+</body>
+<script type="module" src="./data.js"></script>
+<script type="module" src="./football.js"></script>
+
+
+</html>
