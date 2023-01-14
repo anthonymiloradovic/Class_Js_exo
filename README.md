@@ -1,4 +1,4 @@
-# Petit exercice sur les class & custructor Javascript.
+# Petit exercice Javascript.
 
 <br><br><br><br>
 
