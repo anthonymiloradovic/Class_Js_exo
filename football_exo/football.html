@@ -14,38 +14,66 @@
     <div class="football-field">
         <div class="titulaire">
             <div class="attackers">
-                <div class="player" id="attacker-1"></div>
-                <div class="player2" id="attacker-2">2</div>
-                <div class="player" id="attacker-3">3</div>
+                <div class="divi">
+                    <div class="player" id="attacker-1"></div>
+                    <div class="selection">
+                        <select id="players-select">
+                            <option value="">Changement</option>
+                            <option value="0">Messi</option>
+                            <option value="1">Mertens</option>
+                            <option value="2">C.Ronaldo</option>
+                     </div> ...
+                        </select> 
+                </div>
             </div>
-            <select id="players-select">
-                <option value="">-- Sélectionnez un joueur --</option>
-                <option value="0">Joueur 1</option>
-                <option value="1">Joueur 2</option>
-                <option value="2">Joueur 3</option>
-                ...
-              </select> 
+                <div class="player2" id="attacker-2"></div>
+                <div class="player" id="attacker-3">3</div>
+            
+            
+              </div>
             
             <div class="midfielders">
                 <div class="player" id="midfielder-1">4</div>
                 <div class="player-5" id="midfielder-2">5</div>
                 <div class="player" id="midfielder-3">6</div>
-            </div>
 
+                <select id="players-select-2">
+                    <option value="">-- Sélectionnez un joueur --</option>
+                    <option value="0">Messi</option>
+                    <option value="1">Joueur 2</option>
+                    <option value="2">C.Ronaldo</option>
+                  </select> 
+            </div>
+            
             <div class="defenders">
                 <div class="player-dl" id="defender-1">7</div>
                 <div class="player" id="defender-2">8</div>
                 <div class="player" id="defender-3">9</div>
                 <div class="player-dl" id="defender-4">10</div>
+               
+                <select id="players-select-3">
+                    <option value="">-- Sélectionnez un joueur --</option>
+                    <option value="0">Messi</option>
+                    <option value="1">Joueur 2</option>
+                    <option value="2">C.Ronaldo</option>
+            
+                    ...
+                  </select> 
             </div>
 
             <div class="goalkeeper">
                 <div class="player" id="goalkeeper-1">11</div>
             </div>
+            
+            <select id="players-select-4">
+                    <option value="">-- Sélectionnez un joueur --</option>
+                    <option value="0">Messi</option>
+                    <option value="1">Joueur 2</option>
+                    <option value="2">C.Ronaldo</option>...
+            </select> 
         </div>
     </div>
 
-      
 </body>
 <script type="module" src="./data.js"></script>
 <script type="module" src="./football.js"></script>

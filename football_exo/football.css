@@ -11,6 +11,33 @@ html, body{
   font-size: 18px;
 
 }
+#players-select{
+  background-color:  #303030;
+  color: whitesmoke;
+  border-radius: 12px;
+    width: 100px;
+    max-height: 100%;
+    display: flex;
+    margin-top: 45px;
+    
+
+}
+.divi {
+  width: 23%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.select {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
 
 .football-field {
     display: flex;
@@ -55,6 +82,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: nowrap; 
     
   }
   
